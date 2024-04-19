@@ -36,8 +36,9 @@ mkdir 21_dedup_h_script
 mkdir 22_cat_h_script
 mkdir 23_dedup2_h_script
 mkdir 24_merge_h_script
-mkdir 25_qual_bam_h_script
-mkdir 26_align_script_m
-mkdir 27_genotype_script
-mkdir 28_merge_script
-mkdir 29_filter_script
+mkdir 25_qual_h_script
+mkdir 26_align_script_h
+mkdir 27_align_script_m
+mkdir 28_genotype_script
+mkdir 29_merge_script
+mkdir 30_filter_script
