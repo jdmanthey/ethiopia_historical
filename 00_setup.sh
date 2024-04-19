@@ -15,6 +15,9 @@ samtools faidx Ficedula_albicollis.FicAlb1.5.dna.toplevel.fa
 # set up directory structure
 mkdir 00_fastq_m
 mkdir 00_fastq_h
+mkdir 01_split_h
+mkdir 01_working_h
+mkdir 01_cleaned_h
 mkdir 01_cleaned_m
 mkdir 01_bam_files
 mkdir 02_vcf
