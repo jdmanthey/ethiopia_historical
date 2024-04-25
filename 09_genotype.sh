@@ -12,7 +12,7 @@ source activate bcftools
 # define main working directory
 workdir=/lustre/scratch/jmanthey/11_ethiopia_historical
 
-basename_array=$( head -n${SLURM_ARRAY_TASK_ID} ${workdir}/base.txt | tail -n1 )
+basename_array=$( head -n${SLURM_ARRAY_TASK_ID} ${workdir}/basenames.txt | tail -n1 )
 
 # define the reference genome
 refgenome=/home/jmanthey/references/Ficedula_albicollis.FicAlb1.5.dna.toplevel.fa
