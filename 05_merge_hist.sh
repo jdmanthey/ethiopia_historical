@@ -5,7 +5,7 @@
 #SBATCH --nodes=1 --ntasks=2
 #SBATCH --time=48:00:00
 #SBATCH --mem-per-cpu=16G
-#SBATCH --array=1-52
+#SBATCH --array=1-51
 
 source activate hist_filter
 
