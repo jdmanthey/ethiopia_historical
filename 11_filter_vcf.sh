@@ -56,7 +56,7 @@ vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep cossypha.txt \
 --out ${workdir}/10_load/cossypha_load_${region_array}
 
 vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep cristrio.txt \
---max-missing 0.84 --min-alleles 2 --max-alleles 2 --max-maf 0.49 --mac 2 --recode --recode-INFO-all \
+--max-missing 0.83 --min-alleles 2 --max-alleles 2 --max-maf 0.49 --mac 2 --recode --recode-INFO-all \
 --out ${workdir}/10_load/cristrio_load_${region_array}
 
 vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep critrist.txt \
@@ -90,7 +90,7 @@ vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep cossypha.txt \
 --out ${workdir}/08_het/cossypha_het_${region_array}
 
 vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep cristrio.txt \
---max-missing 0.84 --max-alleles 2 --max-maf 0.49 --recode --recode-INFO-all \
+--max-missing 0.83 --max-alleles 2 --max-maf 0.49 --recode --recode-INFO-all \
 --out ${workdir}/08_het/cristrio_het_${region_array}
 
 vcftools --vcf ${workdir}/04_vcf/${region_array}.vcf --keep critrist.txt \
