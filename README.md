@@ -2,6 +2,8 @@
 
 Collection of scripts to analyze a set of historical and modern genomic sequencing datasets from eight species of Ethiopian highland birds. 
 
+
+
 00_setup.sh – Reference genome info, indexing the reference, and setting up directory structure.
 
 01_split_hist_samples.sh – Splits up historical fastq files for parallelized processing.
@@ -46,4 +48,3 @@ Collection of scripts to analyze a set of historical and modern genomic sequenci
 
 21_rohan.sh – Estimating runs of homozygosity.
 
-![image](https://github.com/jdmanthey/ethiopia_historical/assets/15035963/15274eba-b82d-4649-808a-07e4f40cf30e)
