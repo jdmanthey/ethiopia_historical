@@ -1,0 +1,8 @@
+cossypha.vcf
+cristrio.vcf
+critrist.vcf
+melaenornis.vcf
+nectarinia.vcf
+sylvia.vcf
+turdus.vcf
+zosterops.vcf
