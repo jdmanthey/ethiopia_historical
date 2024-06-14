@@ -48,3 +48,9 @@ Collection of scripts to analyze a set of historical and modern genomic sequenci
 
 21_rohan.sh – Estimating runs of homozygosity.
 
+22_summarize_load.R - Summarize the potential and realized load from SnpEff output.
+
+23_summarize_het.r - Summarize the heterozygosity output.
+
+24_test_depth - directory containing many scripts to recalculate heterozygosity and load with different miniimum coverage to keep SNPs (10 and 12), repeats steps 9, 10, 11, 15, 16, 18, 20, 22, 23
+
