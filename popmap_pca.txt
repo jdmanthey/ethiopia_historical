@@ -20,7 +20,6 @@ Crithagra_striolata__83945_	central	historical
 Crithagra_striolata__83949_	east	historical
 Crithagra_striolata__83950_	east	historical
 Crithagra_striolata__83951_	east	historical
-Crithagra_striolata__EB014_	east	modern
 Crithagra_striolata__EB020_	east	modern
 Crithagra_striolata__EB021_	east	modern
 Crithagra_striolata__EB071_	choke	modern
