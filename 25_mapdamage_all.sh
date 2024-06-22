@@ -23,5 +23,5 @@ module load  gcc/10.1.0 gsl/2.7 r/4.3.0
 mkdir ${workdir}/01_bam_files/mapdamage_${basename_array}
 
 # run mapdamage to rescale bam based on damage estimates
-mapDamage -i ${workdir}/01_bam_files/${basename_array}_prefinal.bam -r ${refgenome} \
+mapDamage -i ${workdir}/01_bam_files/${basename_array}_final.bam -r ${refgenome} \
 -d ${workdir}/01_bam_files/mapdamage_${basename_array} --merge-reference-sequences 
