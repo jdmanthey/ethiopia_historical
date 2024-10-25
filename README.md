@@ -54,3 +54,4 @@ Collection of scripts to analyze a set of historical and modern genomic sequenci
 
 24_test_depth - directory containing many scripts to recalculate heterozygosity and load with different miniimum coverage to keep SNPs (10 and 12), repeats steps 9, 10, 11, 15, 16, 18, 20, 22, 23
 
+25_mapdamage_all.sh - Get estimates of substitution locations (in reads) for all modern and historical samples.
